@@ -1,0 +1,53 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+.header_title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.header_nav_list {
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+.header_nav_list a {
+    display: inline-block;
+    padding: 8px 18px;
+    background-color: rgb(31, 67, 230);
+    border-radius: 8px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+    transition: all 0.2s ease;
+}
+a {
+    text-decoration: none;
+}
+main {
+    background-image: url("https://www.ubicalo.com.mx/wp-content/uploads/2020/01/original-c1217309dc093ad9e4bed7eec6d7df2e.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.texto h2 {
+    font-size: 4.5rem;
+    font-weight: 550;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    text-shadow: 2px 2px 10px gba(0, 0, 0, 0.6);
+}
